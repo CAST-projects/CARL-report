@@ -26,17 +26,19 @@ Please follow the instructions and provide the right inputs to generate the expe
 ```
 --input: path to the folder where to find the CARL output
 --output: path where the report will be saved
---report: OWASP2017|OWASP2013|CWETop252011|CWETop252019|OWASPMobile2016  (CAST Health Factors if empty)
+--report: OWASP2021|OWASP2017|OWASP2013|CWETop252011|CWETop252019|OWASPMobile2016|PCI-DSS  (CAST Health Factors if empty)
 --format: PDF|HTML (PDF by default)
 ```
 ## Templates
 
 List of (security) templates:
+  - OWASP2021
   - OWASP2017
   - OWASP2013
   - CWETop252011
   - CWETop252019
   - OWASPMobile2016
+  - PCI-DSS
 
 Don't forget to provide paths according to your OS:
 ```

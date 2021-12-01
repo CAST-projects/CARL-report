@@ -11,7 +11,7 @@ var output = '';
 var report = '';
 var format = 'PDF';
 
-const version = "1.1.0";
+const version = "1.2.0";
 
 var doc;
 
@@ -76,7 +76,7 @@ function displayhelp() {
   console.log("CARL Report Maker Help ("+version+")");
   console.log("--input: path to the folder where to find the CARL output");
   console.log("--output: path where the report will be saved");
-  console.log("--report: OWASP2017|OWASP2013|CWETop252011|CWETop252019|OWASPMobile2016 (CAST Health Factors if empty)");
+  console.log("--report: OWASP2021|OWASP2017|OWASP2013|CWETop252011|CWETop252019|OWASPMobile2016|PCI-DSS (CAST Health Factors if empty)");
   console.log("--format: PDF|HTML (PDF by default)");
 
   process.exit(1);
