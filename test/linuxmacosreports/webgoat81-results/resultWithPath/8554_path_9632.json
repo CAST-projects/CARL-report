@@ -1,1 +1,1 @@
-{"ViolationId":8554,"ViolationName":"Avoid using insufficient random generator","ID":9632,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/csrf/src/main/java/org/owasp/webgoat/csrf/CSRFGetFlag.java","lineStart":80,"colStart":57,"lineEnd":80,"colEnd":78}]}
+{"ViolationId":8554,"ViolationName":"Avoid using insufficient random generator","ID":9632,"bookmarks":[{"step":0,"path":"./test/sources/WebGoat-8.1.0/webgoat-lessons/csrf/src/main/java/org/owasp/webgoat/csrf/CSRFGetFlag.java","lineStart":80,"colStart":57,"lineEnd":80,"colEnd":78}]}

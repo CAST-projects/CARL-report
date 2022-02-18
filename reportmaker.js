@@ -11,7 +11,7 @@ var output = '';
 var report = '';
 var format = 'PDF';
 
-const version = "1.2.0";
+const version = "1.2.1";
 
 var doc;
 
@@ -111,6 +111,8 @@ let closedInterfaces = 0;
 let allBookmarksByRuleId = {};
 let dataflowRuleId = {}; // rule ID -> [internal ID]
 
+let fileresultPaths = []
+
 // save bookmark from rule using path (dataflow) technics
 const resultsWithPath = path.join(input+"/resultWithPath")
 files = fs.readdirSync(resultsWithPath);
@@ -196,7 +198,41 @@ files.forEach(function(file) {
 const resultsByFilePath = path.join(input+"/resultByQualityRule")
 files = fs.readdirSync(resultsByFilePath);
 
+
 files.forEach(function(file) {
+
+  // check if we have a sub-folder
+  let filePathToCheck = path.join(resultsByFilePath,file)
+
+  console.log("Path to check:"+filePathToCheck);
+  
+  try {
+    if(fs.lstatSync(filePathToCheck).isDirectory()) {
+
+      console.log("folder detected:"+filePathToCheck);
+      let subfiles = fs.readdirSync(filePathToCheck);
+      subfiles.forEach(function(subfile) {
+
+        let subfilePathToCheck = path.join(filePathToCheck,subfile)
+
+        if(subfilePathToCheck.endsWith('.json'))
+        {
+          fileresultPaths.push(subfilePathToCheck);
+        }
+      });
+    }
+    else {
+      console.log("we can proceed "+filePathToCheck);
+      fileresultPaths.push(filePathToCheck);
+    }
+  }
+  catch(e) {
+  }
+});
+
+console.log("Number of result file to investigate: "+fileresultPaths.length)
+
+fileresultPaths.forEach(function(fileResultPath) {
 
   // let scan file by file and regroup the information by rule id for rendering
   //
@@ -208,12 +244,12 @@ files.forEach(function(file) {
 
     //console.log("resultByQualityRule start parsing "+file);
 
-    let byFileRawdata = fs.readFileSync(path.join(resultsByFilePath,file));
+    let byFileRawdata = fs.readFileSync(fileResultPath);
     byQRResults = JSON.parse(byFileRawdata);
   }
   catch(error) {
 
-      console.log("Cannot parse "+file+ " as json...");
+      console.log("Cannot parse "+fileResultPath+ " as json...");
       //console.error(error);
       //process.exit(1);
   }
@@ -223,6 +259,13 @@ files.forEach(function(file) {
     //console.log(file+" : investigate the results...");
 
     var violationList = byQRResults["ViolationList"];
+
+    if(violationList == undefined) // no longer as list format but there is only one rule per file
+    {
+
+      violationList = [byQRResults]
+    }
+
     violationList.forEach((item, i) => {
 
         if(item["ViolationId"]) {
