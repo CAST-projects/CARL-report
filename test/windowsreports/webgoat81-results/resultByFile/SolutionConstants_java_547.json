@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/challenge/src/main/java/org/owasp/webgoat/challenges/SolutionConstants.java","ViolationList":[{"ViolationName":"Avoid unreferenced Data Members","ViolationId":7912,"ViolationsCount":1,"Violations":[{"ID":9166,"bookmarks":[{"lineStart":35,"colStart":5,"lineEnd":35,"colEnd":53}]}]}]}

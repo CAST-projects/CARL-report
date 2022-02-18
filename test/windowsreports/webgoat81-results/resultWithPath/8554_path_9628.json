@@ -1,0 +1,1 @@
+{"ViolationId":8554,"ViolationName":"Avoid using insufficient random generator","ID":9628,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/crypto/src/main/java/org/owasp/webgoat/crypto/HashingAssignment.java","lineStart":55,"colStart":27,"lineEnd":55,"colEnd":63}]}

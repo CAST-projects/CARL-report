@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/pivotal-bank-demo-master+JARS/pivotal-bank-demo-master/user-service/src/test/java/io/pivotal/user/AccountsApplicationTest.java","ViolationList":[{"ViolationName":"Avoid unreferenced Methods","ViolationId":7908,"ViolationsCount":1,"Violations":[{"ID":2936,"bookmarks":[{"lineStart":18,"colStart":1,"lineEnd":19,"colEnd":1}]}]}]}

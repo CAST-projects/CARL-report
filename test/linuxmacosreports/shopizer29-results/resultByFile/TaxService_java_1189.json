@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-core/src/main/java/com/salesmanager/core/business/services/tax/TaxService.java","ViolationList":[{"ViolationName":"Avoid Artifacts with High Fan-Out","ViolationId":7778,"ViolationsCount":1,"Violations":[{"ID":8599,"bookmarks":[{"lineStart":34,"colStart":1,"lineEnd":35,"colEnd":1}]}]}]}

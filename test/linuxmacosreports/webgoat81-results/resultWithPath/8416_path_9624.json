@@ -1,0 +1,1 @@
+{"ViolationId":8416,"ViolationName":"Avoid use of a reversible one-way hash","ID":9624,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/crypto/src/main/java/org/owasp/webgoat/crypto/HashingAssignment.java","lineStart":57,"colStart":51,"lineEnd":57,"colEnd":56}]}

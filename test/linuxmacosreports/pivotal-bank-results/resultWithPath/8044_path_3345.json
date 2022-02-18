@@ -1,0 +1,1 @@
+{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":3345,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/pivotal-bank-demo-master+JARS/pivotal-bank-demo-master/analytics-service/src/main/java/io/pivotal/analytics/controller/AnalyticsController.java","lineStart":30,"colStart":70,"lineEnd":30,"colEnd":76}]}

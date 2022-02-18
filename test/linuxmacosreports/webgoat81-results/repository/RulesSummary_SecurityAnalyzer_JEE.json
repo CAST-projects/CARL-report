@@ -1,0 +1,309 @@
+{
+  "qualityRules": [
+    {
+      "origine": "CASTCarlQR",
+      "rules": [
+        {
+          "name": "Avoid HTTP response splitting",
+          "violationId": 7740,
+          "occ": 0,
+          "time": 0.0114788
+        },
+        {
+          "name": "Avoid SQL injection vulnerabilities",
+          "violationId": 7742,
+          "occ": 36,
+          "time": 0.3644274
+        },
+        {
+          "name": "Avoid LDAP injection vulnerabilities",
+          "violationId": 7746,
+          "occ": 0,
+          "time": 0.009698
+        },
+        {
+          "name": "Avoid OS command injection vulnerabilities",
+          "violationId": 7748,
+          "occ": 0,
+          "time": 0.0649693
+        },
+        {
+          "name": "Avoid XPath injection vulnerabilities",
+          "violationId": 7750,
+          "occ": 0,
+          "time": 0.0551943
+        },
+        {
+          "name": "Avoid file path manipulation vulnerabilities",
+          "violationId": 7752,
+          "occ": 12,
+          "time": 0.6110934
+        },
+        {
+          "name": "Avoid log forging vulnerabilities",
+          "violationId": 8044,
+          "occ": 0,
+          "time": 0.0630741
+        },
+        {
+          "name": "Avoid uncontrolled format string",
+          "violationId": 8098,
+          "occ": 0,
+          "time": 0.0161885
+        },
+        {
+          "name": "Avoid hard-coded credentials",
+          "violationId": 8222,
+          "occ": 2,
+          "time": 0.0055525
+        },
+        {
+          "name": "Avoid mixing trusted and untrusted data in HTTP requests",
+          "violationId": 8238,
+          "occ": 1,
+          "time": 0.7117697
+        },
+        {
+          "name": "Avoid using unsecured cookie",
+          "violationId": 8240,
+          "occ": 6,
+          "time": 0.0073558
+        },
+        {
+          "name": "Avoid reflected cross-site scripting (non persistent)",
+          "violationId": 8408,
+          "occ": 7,
+          "time": 3.5452413
+        },
+        {
+          "name": "Avoid cross-site scripting (persistent)",
+          "violationId": 8410,
+          "occ": 1,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid weak cryptographic algorithm",
+          "violationId": 8414,
+          "occ": 0,
+          "time": 0.0008982
+        },
+        {
+          "name": "Avoid use of a reversible one-way hash",
+          "violationId": 8416,
+          "occ": 1,
+          "time": 0.0065526
+        },
+        {
+          "name": "Avoid NoSQL injection",
+          "violationId": 8418,
+          "occ": 0,
+          "time": 0.0075346
+        },
+        {
+          "name": "Avoid second order SQL injection",
+          "violationId": 8420,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid using hard-coded HMAC keys",
+          "violationId": 8424,
+          "occ": 0,
+          "time": 0.0010777
+        },
+        {
+          "name": "Avoid process control",
+          "violationId": 8434,
+          "occ": 0,
+          "time": 0.009175
+        },
+        {
+          "name": "Avoid thread injection vulnerabilities",
+          "violationId": 8436,
+          "occ": 0,
+          "time": 0.0102365
+        },
+        {
+          "name": "Avoid code injection",
+          "violationId": 8438,
+          "occ": 0,
+          "time": 0.0078034
+        },
+        {
+          "name": "Avoid reflection injection",
+          "violationId": 8440,
+          "occ": 1,
+          "time": 0.2921549
+        },
+        {
+          "name": "Avoid resource injection",
+          "violationId": 8442,
+          "occ": 0,
+          "time": 0.0093291
+        },
+        {
+          "name": "Avoid resource URL manipulation",
+          "violationId": 8444,
+          "occ": 0,
+          "time": 0.0370855
+        },
+        {
+          "name": "Avoid URL redirection to untrusted site",
+          "violationId": 8446,
+          "occ": 0,
+          "time": 0.0110624
+        },
+        {
+          "name": "Avoid cross-site scripting through API requests",
+          "violationId": 8482,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid HTTP response splitting through API requests",
+          "violationId": 8484,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid resource injection through API requests",
+          "violationId": 8486,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid resource URL manipulation through API requests",
+          "violationId": 8488,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid SQL injection vulnerabilities through API requests",
+          "violationId": 8490,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid LDAP injection vulnerabilities through API requests",
+          "violationId": 8492,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid OS command injection vulnerabilities through API requests",
+          "violationId": 8494,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid process control through API requests",
+          "violationId": 8496,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid thread injection vulnerabilities through API requests",
+          "violationId": 8498,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid code injection through API requests",
+          "violationId": 8500,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid reflection injection through API requests",
+          "violationId": 8502,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid XPath injection vulnerabilities through API requests",
+          "violationId": 8504,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid file path manipulation vulnerabilities through API requests",
+          "violationId": 8506,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid log forging vulnerabilities through API requests",
+          "violationId": 8508,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid uncontrolled format string through API requests",
+          "violationId": 8510,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid mixing trusted and untrusted data in HTTP requests through API requests",
+          "violationId": 8512,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid NoSQL injection through API requests",
+          "violationId": 8514,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid URL redirection to untrusted site through API requests",
+          "violationId": 8516,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid Regular expression injection",
+          "violationId": 8518,
+          "occ": 0,
+          "time": 0.0138013
+        },
+        {
+          "name": "Avoid second order Regular expression injection",
+          "violationId": 8520,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid Regular expression injection through API requests",
+          "violationId": 8522,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid deserialization injection",
+          "violationId": 8524,
+          "occ": 2,
+          "time": 0.0858222
+        },
+        {
+          "name": "Avoid second order deserialization injection",
+          "violationId": 8526,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid deserialization injection through API requests",
+          "violationId": 8528,
+          "occ": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Avoid using insufficient random generator",
+          "violationId": 8554,
+          "occ": 7,
+          "time": 0.0065009
+        }
+      ]
+    }
+  ]
+}

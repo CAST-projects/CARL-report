@@ -1,0 +1,1 @@
+{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23302,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/controller/category/ShoppingCategoryController.java","lineStart":474,"colStart":54,"lineEnd":474,"colEnd":59}]}

@@ -1,0 +1,1 @@
+{"ViolationName":"Avoid empty finally blocks","ViolationId":7782,"Violations":[{"violator":7775,"bookmarks":[{"ID":6791,"file":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/missing-function-ac/src/main/java/org/owasp/webgoat/missing_ac/MissingFunctionACUsers.java","lineStart":92,"colStart":11,"lineEnd":94,"colEnd":9}]}]}

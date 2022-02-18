@@ -1,0 +1,1 @@
+{"ViolationName":"Avoid Artifacts with High Cyclomatic Complexity","ViolationId":1020000,"Violations":[{"violator":2858,"bookmarks":[{"ID":735,"file":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/webapp/resources/templates/exoticamobilia/js/template.js","lineStart":2,"colStart":1,"lineEnd":3,"colEnd":1}]}]}

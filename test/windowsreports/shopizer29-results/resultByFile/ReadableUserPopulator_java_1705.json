@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/populator/user/ReadableUserPopulator.java","ViolationList":[{"ViolationName":"Avoid Artifacts with High Fan-Out","ViolationId":7778,"ViolationsCount":1,"Violations":[{"ID":9168,"bookmarks":[{"lineStart":23,"colStart":1,"lineEnd":24,"colEnd":1}]}]}]}

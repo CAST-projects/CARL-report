@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/CustomerRepositoryCustom.java","ViolationList":[{"ViolationName":"Avoid undocumented Methods","ViolationId":7838,"ViolationsCount":1,"Violations":[{"ID":12701,"bookmarks":[{"lineStart":11,"colStart":2,"lineEnd":11,"colEnd":75}]}]}]}

@@ -1,0 +1,1 @@
+{"ViolationId":8408,"ViolationName":"Avoid reflected cross-site scripting (non persistent)","ID":23202,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java","lineStart":209,"colStart":47,"lineEnd":209,"colEnd":51}]}

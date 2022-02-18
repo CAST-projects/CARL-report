@@ -1,0 +1,1 @@
+{"ViolationName":"Avoid declaring Final Instance Variables that are not dynamically initialized","ViolationId":4572,"Violations":[{"violator":24568,"bookmarks":[{"ID":3359,"file":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-core/src/test/java/com/salesmanager/test/catalog/ProductTest.java","lineStart":45,"colStart":2,"lineEnd":45,"colEnd":47}]}]}

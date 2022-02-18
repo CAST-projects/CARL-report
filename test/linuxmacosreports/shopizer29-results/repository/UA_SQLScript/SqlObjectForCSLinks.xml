@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<objects>
+   <object>
+      <name>CarlProject_SQLScriptProject</name>
+      <type>SQLScriptProject</type>
+      <id>5000002</id>
+      <language>17</language>
+   </object>
+</objects>

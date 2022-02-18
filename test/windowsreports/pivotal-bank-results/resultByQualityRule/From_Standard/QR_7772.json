@@ -1,0 +1,1 @@
+{"ViolationName":"Avoid Artifacts with High Essential Complexity","ViolationId":7772,"Violations":[{"violator":6771,"bookmarks":[{"ID":1073,"file":"C:/Users/GRA/Downloads/pivotal-bank-demo-master+JARS/pivotal-bank-demo-master/zipkin-server/src/main/java/zipkin2/server/internal/MetricsHealthController.java","lineStart":52,"colStart":1,"lineEnd":53,"colEnd":1}]}]}

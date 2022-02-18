@@ -1,0 +1,1 @@
+{"file":"C:/Users/GRA/Downloads/WebGoat-8.1.0/webgoat-lessons/sql-injection/src/main/resources/db/migration/V2019_09_26_2__users.sql","ViolationList":[{"ViolationName":"Avoid unreferenced Tables","ViolationId":1634,"ViolationsCount":1,"Violations":[{"ID":9245,"bookmarks":[{"lineStart":1,"colStart":1,"lineEnd":2,"colEnd":1}]}]}]}
