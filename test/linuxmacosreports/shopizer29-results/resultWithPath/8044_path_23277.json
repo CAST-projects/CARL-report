@@ -1,1 +1,1 @@
-{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23277,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/controller/LandingController.java","lineStart":170,"colStart":60,"lineEnd":170,"colEnd":65}]}
+{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23277,"bookmarks":[{"step":0,"path":"./test/sources/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/controller/LandingController.java","lineStart":170,"colStart":60,"lineEnd":170,"colEnd":65}]}

@@ -1,1 +1,1 @@
-{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23366,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/OptinApi.java","lineStart":48,"colStart":23,"lineEnd":48,"colEnd":30}]}
+{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23366,"bookmarks":[{"step":0,"path":"./test/sources/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/OptinApi.java","lineStart":48,"colStart":23,"lineEnd":48,"colEnd":30}]}

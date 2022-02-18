@@ -1,1 +1,1 @@
-{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23341,"bookmarks":[{"step":0,"path":"C:/Users/GRA/Downloads/shopizer-2.9.0+JARS/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/admin/controller/tax/TaxRatesController.java","lineStart":410,"colStart":44,"lineEnd":410,"colEnd":46}]}
+{"ViolationId":8044,"ViolationName":"Avoid log forging","ID":23341,"bookmarks":[{"step":0,"path":"./test/sources/shopizer-2.9.0/sm-shop/src/main/java/com/salesmanager/shop/admin/controller/tax/TaxRatesController.java","lineStart":410,"colStart":44,"lineEnd":410,"colEnd":46}]}
